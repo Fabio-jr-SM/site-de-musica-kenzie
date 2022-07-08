@@ -40,16 +40,6 @@ if(minhaIdade > 18) {
 
 /* ------------ */
 
-const baseMusicas = [
-    {
-       'name': 'É TUDO SOBRE VOCÊ  SER MUDADO  MORADA AO VIVO',
-        'artist': 'MORADA',
-        'path': './src/audio/file:///D:/Cursos/KENZINE/kenziefy-master/kenziefy-master/src/audio/%C3%89%20TUDO%20SOBRE%20VOC%C3%8A%20_%20SER%20MUDADO%20_%20MORADA%20(AO%20VIVO).m4a',
-        'album': 'Desconhecido',
-	}
-	
-];
-
 /**
  *  <li>    
         <p class="primeiroItem">0 Good Enough</p>
@@ -63,6 +53,14 @@ const baseMusicas = [
        'album': 'Desconhecido',
     }
  */
+
+/* Numero de Musicas */
+
+const songs = baseMusicas.length
+
+document.getElementById('number-songs').innerHTML = songs+" Songs"
+
+
 
 const listaMusicas = document.querySelector('.listaMusicas');
 const tagAudio = document.getElementById('saidaAudio');

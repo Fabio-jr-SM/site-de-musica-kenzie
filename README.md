@@ -1,4 +1,6 @@
-# Maratona de Programação 4: Kenziefy
+# Maratona de Programação
+
+#Criado por Kenzie Academy, modificado por Fábio Jr.
 
 Projeto desenvolvido na parte 4 da maratona de programação da Kenzie Academy Brasil.
 
